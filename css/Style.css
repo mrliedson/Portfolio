@@ -1,62 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+}
+p {
+    font-family: "Oswald", sans-serif;
+}
+body{
+    background: url("../img/bg-desktop-light.jpg") no-repeat top center/cover;
+}
+.geral{
+    height: 600px;
+    text-align: center;
+    background-color: rgba(41, 41, 41, 0.37) ;   
 }
 
-.slider{
-    
-    background: #ccc;
-    width: 40px;
-    height: 20px;
-    border: 2px solid #bbb;
-    border-radius: 20px;
-}
-
-img{
-    height: 200px ;
-    width: 180px;
-    border-radius: 200%;
-}
-
-body {
-    font-family: 'Times New Roman', Times, serif;
-    background-size: cover;
-}
-
-ul li{
-    width: 250px;
-    align-items: center;
-    list-style: none;
-    margin-top: 10px;
-    background-color: rgba(0, 0, 0, 0.699);
-    font-size: 20px;
-}
 ul li a {
     color: rgb(228, 228, 228);
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
 }
 
 ul li a:hover{
-    color: rgb(70, 70, 245);
+    color: rgb(82, 82, 82);
+}
+
+ul li {
+    align-items: top/center;
+    list-style: none;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 
-/*DIVS*/
-.geral{
+ul li:hover {
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+.github{
+    color: black;
+}
+
+img{
+    height: 145px ;
+    width: 145px;
+    border-radius: 80%;
+}
+
+.foto {
     text-align: center;
-    background-color: rgba(41, 41, 41, 0.37) ;
-    align-items: center;
+    padding: 50px 0;
+    
 }
-
 .main{
-
     margin: 0 auto;
     display: flex;
-    width: 250px;
-    height: 250px;
+    width: 290px;
+    height: 230px;
    align-items: center;
     background-color: rgba(68, 68, 68, 0.473);
     border-radius: 10%;
-    
 }
